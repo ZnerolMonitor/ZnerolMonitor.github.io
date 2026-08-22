@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ZnerolMonitor bringt Leistung, Programme und deinen Windows-Start in eine klare Zentrale." />
+    <title>ZnerolMonitor — Dein PC. Im Blick.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="redesign.css" />
+    <link rel="stylesheet" href="charts.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="nav shell" aria-label="Hauptnavigation">
+        <a class="brand" href="#top" aria-label="ZnerolMonitor Startseite"><span class="brand-mark">Z</span>ZnerolMonitor</a>
+        <a class="nav-link" href="#funktionen">Funktionen <span aria-hidden="true">↓</span></a>
+      </nav>
+
+      <section class="hero shell" id="top">
+          <div class="hero-copy">
+          <p class="eyebrow"><span></span> Für Windows gemacht</p>
+          <h1>Dein PC.<br /><em>Im Blick.</em></h1>
+          <p class="intro">ZnerolMonitor vereint Leistung, Programme und deinen Windows-Start in einer schnellen, aufgeräumten Zentrale.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#funktionen">Entdecken <span aria-hidden="true">→</span></a>
+            <a class="button quiet" href="#vorschau">Vorschau ansehen</a>
+          </div>
+          <p class="platform"><span class="windows-icon">⊞</span> Entwickelt für Windows</p>
+        </div>
+        <div class="monitor-card" id="vorschau" aria-label="Vorschau der ZnerolMonitor-App">
+          <div class="window-bar"><div class="window-name">ZnerolMonitor</div><div class="window-controls">☼　–　▢　×</div></div>
+          <div class="app-tabs"><span class="active">Leistung</span><span>Prozesse</span><span>Autostart</span><span>Autoclicker</span><span>Audio</span><span>Spiele</span></div>
+          <div class="app-body">
+            <div class="app-main">
+              <div class="metrics">
+                <article><div class="metric-label">Arbeitsspeicher</div><strong>42<span>%</span></strong><div class="chart ram-chart"><svg viewBox="0 0 240 52" preserveAspectRatio="none" aria-hidden="true"><path d="M0 39 L15 37 L27 42 L42 34 L57 36 L70 22 L84 31 L99 27 L112 11 L126 18 L140 28 L155 23 L168 37 L184 30 L198 34 L211 19 L225 25 L240 17" /></svg></div><small>13,4 von 32 GB belegt</small></article>
+                <article><div class="metric-label">Prozessor</div><strong>18<span>%</span></strong><div class="chart cpu-chart"><svg viewBox="0 0 240 52" preserveAspectRatio="none" aria-hidden="true"><path d="M0 44 L14 43 L25 37 L36 45 L49 40 L60 13 L71 38 L84 31 L98 42 L109 25 L120 35 L133 39 L145 17 L158 40 L171 30 L184 44 L198 34 L212 42 L225 24 L240 37" /></svg></div><small>Auslastung der letzten 3 Minuten</small></article>
+                <article class="network"><div class="metric-label">Netzwerk <b><i>↓</i> 8,4 MB/s　 <em>↑</em> 1,2 MB/s</b></div><div class="chart net-chart"><svg viewBox="0 0 480 52" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="downFill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#c17fff" stop-opacity=".42"/><stop offset="1" stop-color="#c17fff" stop-opacity="0"/></linearGradient><linearGradient id="upFill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#ff9f43" stop-opacity=".3"/><stop offset="1" stop-color="#ff9f43" stop-opacity="0"/></linearGradient></defs><path class="download-area" d="M0 43 L19 38 L36 44 L55 34 L74 41 L93 16 L112 29 L132 37 L151 21 L170 34 L190 42 L210 28 L229 32 L249 11 L268 25 L287 35 L306 20 L326 41 L345 31 L364 39 L383 17 L402 28 L421 23 L440 39 L460 30 L480 34 V52 H0 Z"/><path class="upload-area" d="M0 46 L19 44 L36 45 L55 39 L74 45 L93 36 L112 41 L132 27 L151 43 L170 35 L190 40 L210 25 L229 42 L249 30 L268 38 L287 20 L306 44 L326 34 L345 42 L364 26 L383 40 L402 34 L421 43 L440 28 L460 42 L480 25 V52 H0 Z"/><path class="download" d="M0 43 L19 38 L36 44 L55 34 L74 41 L93 16 L112 29 L132 37 L151 21 L170 34 L190 42 L210 28 L229 32 L249 11 L268 25 L287 35 L306 20 L326 41 L345 31 L364 39 L383 17 L402 28 L421 23 L440 39 L460 30 L480 34"/><path class="upload" d="M0 46 L19 44 L36 45 L55 39 L74 45 L93 36 L112 41 L132 27 L151 43 L170 35 L190 40 L210 25 L229 42 L249 30 L268 38 L287 20 L306 44 L326 34 L345 42 L364 26 L383 40 L402 34 L421 43 L440 28 L460 42 L480 25"/></svg></div><small><span>●</span> Download　 <i>●</i> Upload – letzte 3 Minuten</small></article>
+              </div>
+              <div class="pc-card"><div class="metric-label">Dein PC</div><div><span>Prozessor</span><b>Intel® Core™ i7</b></div><div><span>Arbeitsspeicher</span><b>32 GB</b></div><div><span>Grafikkarte</span><b>NVIDIA GeForce RTX</b></div></div>
+              <div class="process-preview"><span>Aktive Prozesse</span><div><b>Discord</b><small>428 MB　2 %</small></div><div><b>Spotify</b><small>315 MB　0 %</small></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Produktmerkmale"><div>LEISTUNG <b>✦</b> PROZESSE <b>✦</b> PROFILE <b>✦</b> AUTOSTART <b>✦</b> OVERLAYS <b>✦</b> LEISTUNG <b>✦</b> PROZESSE <b>✦</b> PROFILE <b>✦</b></div></section>
+
+      <section class="features shell" id="funktionen">
+        <div class="section-heading"><p class="eyebrow"><span></span> Alles an einem Ort</p><h2>Weniger Suchen.<br />Mehr <em>Kontrolle.</em></h2></div>
+        <div class="feature-grid">
+          <article class="feature feature-large"><span class="number">01</span><div><span class="feature-icon pulse">⌁</span><h3>Leistung, die du verstehst.</h3><p>CPU, Arbeitsspeicher und Netzwerk in Echtzeit — klar dargestellt, ohne Zahlenchaos.</p></div><div class="mini-graph"><div class="graph-axis"><span>100</span><span>50</span><span>0</span></div><svg viewBox="0 0 390 130" preserveAspectRatio="none" aria-hidden="true"><path d="M0 103 C16 88, 25 110, 43 92 S72 72, 85 87 S105 42, 121 66 S144 96, 162 60 S188 81, 206 50 S229 75, 247 37 S272 81, 291 65 S312 92, 330 47 S357 58, 390 23" fill="none" stroke="currentColor" stroke-width="3" /></svg><span class="graph-label">LIVE</span></div></article>
+          <article class="feature"><span class="number">02</span><span class="feature-icon squares">▦</span><h3>Programme im Griff.</h3><p>Sieh sofort, was Ressourcen braucht — und beende Prozesse direkt.</p></article>
+          <article class="feature accent"><span class="number">03</span><span class="feature-icon rocket">↗</span><h3>Dein Start.<br />Deine Regeln.</h3><p>Erstelle Profile für Gaming, Arbeit oder Kreativität. Ein Klick startet alles, was du brauchst.</p></article>
+          <article class="feature"><span class="number">04</span><span class="feature-icon eye">◌</span><h3>Mehr als ein Monitor.</h3><p>Autoclicker, Audio-Shortcuts, Spiele-Overlays und zehn Mini-Games – direkt in deiner App.</p></article>
+        </div>
+      </section>
+
+      <section class="statement shell"><p>Kein überladenes Tool.<br /><span>Nur das, was dein PC braucht.</span></p><div class="statement-mark">Z</div></section>
+
+      <section class="cta shell"><p class="eyebrow"><span></span> Bereit, Ordnung zu schaffen?</p><h2>Mach deinen PC<br /><em>zu deinem System.</em></h2><a class="button primary" href="downloads/ZnerolMonitor-v1.5.exe" download>ZnerolMonitor v1.5 herunterladen <span aria-hidden="true">↓</span></a><p class="download-note">Aktuelle Version · Arcade mit Schwierigkeitsstufen und 10 Spielen</p></section>
+    </main>
+    <footer class="shell"><a class="brand" href="#top"><span class="brand-mark">Z</span>ZnerolMonitor</a><span>Ein Windows-Tool für mehr Übersicht.</span><span>© 2026</span></footer>
+  </body>
+</html>

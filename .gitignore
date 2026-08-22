@@ -1,0 +1,3 @@
+# Only the latest portable Windows download is published with the website.
+downloads/*.exe
+!downloads/ZnerolMonitor-v1.5.exe
