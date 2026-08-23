@@ -1,3 +1,16 @@
 # Only the latest portable Windows download is published with the website.
 downloads/*.exe
 !downloads/ZnerolMonitor-v1.5.exe
+
+# Never publish local configuration, credentials, or system files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+*.log
+Thumbs.db
+.DS_Store
